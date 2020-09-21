@@ -1,0 +1,414 @@
+.wContent {
+	width: 100%;
+	height: 100%;
+	background: #f4f4f4;
+}
+
+.wContentLeft {
+	width: 200px;
+	min-height: 1030px;
+	background: #7c7c7c;
+	float: left;
+}
+
+.wContentRight {
+	min-height: 1030px;
+	height: 100%;
+	padding: 20px;
+	margin-left: 200px;
+	box-sizing: border-box;
+}
+
+.wTitle {
+	width: 100%;
+	height: 40px;
+	background: #ffffff;
+	line-height: 40px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+
+.layui-breadcrumb a {
+	color: #333333 !important;
+}
+
+.wMain {
+	width: 100%;
+	height: 100%;
+	background: #ffffff;
+	margin-top: 20px;
+	padding: 10px 10px 40px 10px;
+	box-sizing: border-box;
+}
+
+.wHeader {
+	width: 100%;
+	height: 54px;
+	padding-left: 20px;
+	background: #ffffff;
+	line-height: 54px;
+	border: 1px solid #e5e5e5;
+	box-sizing: border-box;
+}
+
+.wHeader a {
+	width: 80px;
+	height: 36px;
+	background: #0d67c3;
+	color: #ffffff;
+	font-size: 14px;
+	border-radius: 6px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 8px;
+	line-height: 36px;
+	text-align: center;
+
+}
+.wTable{
+	width: 100%;
+	border: 1px solid #e5e5e5;
+	margin-top: 20px;
+	text-align: center;
+	border-bottom: none;
+}
+.wTable.mg{
+	border-top: none;
+	margin-top: 0px;
+}
+.wTable tr{
+	height: 44px;
+}
+.one{
+	width: 11.8%;
+}
+.two{
+	width: 20.1%;
+}
+.three{
+	width: 16%;
+}
+.four{
+	width: 20.4%;
+}
+.five{
+	width: 17.8%;
+}
+.six{
+	width: 11.2%;
+}
+/* 100 */
+.senvon{
+	width: 6%;
+}
+.nine{
+	width: 13%;
+}
+/* .three{
+	width: 24%;
+} */
+.wContractOne{
+	text-align: start;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+.wContractImg{
+	height: 164px;
+}
+
+/* swiper引用 */
+.wtradeBtmSwiper {
+	height: 110px;
+	border-top: 1px solid #e5e5e5;
+	padding: 10px;
+	position: relative;
+	overflow: hidden;
+	box-sizing: border-box;
+	border-top: none;
+}
+.wtradeBtmSwiper.hg{
+	width: 100%;
+	height: 164px;
+	border: 1px solid #e5e5e5;
+	border-top: none;
+	box-sizing: border-box;
+	border-bottom: none;
+}
+.wtradeBtmSwiper.bor{
+	border-bottom: 1px solid #e5e5e5;
+}
+.wtradeBtmSwiper.btm{
+	height: 134px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.swiper-wrapper {
+	position: relative;
+	width: 100%;
+	height: 144px;
+	z-index: 1;
+	display: flex;
+	box-sizing: content-box;
+}
+
+.swiper-slide {
+	width: 80px !important;
+	height: 144px !important;
+	margin-right: 20px;
+	flex-shrink: 0;
+	/* width: 100%; */
+	height: 100%;
+	position: relative;
+	transition-property: transform, -webkit-transform;
+}
+
+
+.swiper-button-prev {
+	background-image: url(../../images/order/left.png) !important;
+	left: 10px;
+	right: auto;
+	position: absolute;
+	top: 50%;
+	width: 17px;
+	height: 30px;
+	margin-top: -13px;
+	z-index: 10;
+	cursor: pointer;
+	background-size: 17px 30px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.swiper-button-next {
+	background-image: url(../../images/order/right.png) !important;
+	right: 10px;
+	left: auto;
+	position: absolute;
+	top: 50%;
+	width: 17px;
+	height: 30px;
+	margin-top: -13px;
+	z-index: 10;
+	cursor: pointer;
+	background-size: 17px 30px;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+.swiper-containerss .swiper-slide {
+    width: 180px !important;
+    margin-right: 20px !important;
+}
+.wimgbox.hg {
+    width: 180px;
+    height: 110px;
+}
+.wImgText{
+	width: 180px;
+	margin-top: 10px;
+	font-size: 14px;
+	text-align: center;
+	
+}
+/* 引用结束 */
+
+
+.wZhanghu{
+	width: 100%;
+	height: 216px;
+	margin-top: 20px;
+	/* border: 1px solid #e5e5e5; */
+	
+	
+}
+.wzhbox{
+	width: 50%;
+	height: 173px;
+	float: left;
+	border: 1px solid #e5e5e5;
+	box-sizing: border-box;
+}
+.wZhTitle{
+	width: 100%;
+	height: 44px;
+	background: #f4f4f4;
+	text-align: center;
+	line-height: 44px;
+	font-weight: 600;
+	border: 1px solid #e5e5e5;
+	border-bottom: none;
+}
+.wZhLeft{
+	width:44px;
+	height: 173px;
+	float: left;
+	text-decoration: dashed;
+	padding-top: 42px;
+	border-right: 1px solid #e5e5e5;
+	box-sizing: border-box;
+	text-align: center;
+}
+.wzhul{
+	float: left;
+	box-sizing: border-box;
+	/* border: 1px solid #e5e5e5; */
+}
+.wzhbox.bor{
+	border-right: none ;
+}
+.wzhul li{
+	display: flex;
+	border-bottom: 1px solid #e5e5e5;
+	
+}
+.wli{
+	border-bottom: none !important;
+}
+.wmc{
+	width: 150px;
+	/* width: 17.8%; */
+	height: 44px;
+	text-align: center;
+	line-height: 44px;
+	float: left;
+	border-right: 1px solid #e5e5e5;
+	
+	
+}
+.wmcText{
+	width:567px;
+	height: 44px;
+	text-align: center;
+	line-height: 44px;
+	float: left;
+	padding-left:20px ;
+	box-sizing: border-box;
+	text-align: start;
+	/* border-bottom: 1px solid #e5e5e5; */
+}
+.wline{
+	border-bottom: 1px solid #e5e5e5; 
+	box-sizing: border-box;
+}
+.wTable.top{
+	margin-top: 20px;
+}
+.wshtr{
+	height: 74px !important;
+}
+.wshtwotr{
+	height: 134px !important;
+}
+.wshtd{
+	padding-left: 42px;
+	text-align: start;
+	box-sizing: border-box;
+	
+}
+.wshp{
+	margin-bottom: 16px;
+}
+.wshtd span{
+	float: right;
+	margin-right: 48px;
+}
+.wshtd img{
+	width: 180px;
+	height: 110px;
+}
+
+.wTable th{
+	background: #f5f5f5;
+}
+.wcor{
+	background: #f5f5f5;
+}
+.wTable td a{
+	color: #0b75d7;
+}
+.wa{
+	margin-right:20px ;
+}
+.three.cor{
+	color: #dd514c;
+}
+.start{
+	text-align: start;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+.wall{
+	float: right;
+	margin-right: 32px;
+}
+.wall.cor{
+	color:#0b75d7 ;
+}
+
+/*  */
+.wzhtext{
+	width: 2.6%;
+}
+.wzhleft{
+	width: 8.9%;
+}
+.wzhright{
+	width: 38.5%;
+}
+/* 订单审核css */
+.wshtd .wshRadio{
+	margin-right: 50px;
+}
+.wshtd textarea{
+	width: 700px;
+	height: 100px;
+	padding: 12px 10px;
+	font-size: 14px;
+	border: 1px solid #e5e5e5;
+	box-sizing: border-box;
+}
+.file {
+	width: 80px !important;
+	height: 36px;
+	position: relative;
+	right: 0;
+	top: 6px;
+	display: inline-block;
+	background: #0d67c3;
+	border: 1px solid #2672b9;
+	text-align: center;
+	text-decoration: none;
+	text-indent: 0;
+	line-height: 36px;
+	border-radius: 6px;
+	color: #ffffff;
+	font-size: 14px;
+	padding-left: 9px;
+	padding-right: 10px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.file input {
+	width: 80px !important;
+	height: 30px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	opacity: 0;
+}
+.file.mr{
+	margin-right: 20px;
+	color: #ffffff;
+}
+.wsubmit{
+	display: inline-block;
+	width: 126px;
+	height: 37px;
+	background: #2ba3d5;
+	color: #f9fafb;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 37px;
+	margin-top: 30px;
+	margin-left: 48%;
+	
+}

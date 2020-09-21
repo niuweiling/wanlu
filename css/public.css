@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "微软雅黑";
+    background: #f4f4f4;
+    line-height: 1.7;
+    color: #333333;
+    font-size: 14px;
+    overflow-x: hidden
+}
+
+em, i {
+    font-style: normal
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none
+}
+
+img, input {
+    border: none
+}
+
+input:focus {
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+.clear {
+    clear: both;
+    height: 0;
+    overflow: hidden
+}
+.clearFix::after{
+    display: block;
+    content: "";
+    clear: both;
+    overflow: hidden;
+}
+.center {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.none {
+    display: none;
+}
+
+::-webkit-scrollbar { /*滚动条整体样式*/
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb { /*滚动条里面小方块*/
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
+    background: #999;
+    height: 2px;
+}
+
+::-webkit-scrollbar-track { /*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+/*修改layui样式*/
+.layui-layer-btn .layui-layer-btn0{
+    background-color: #d82b24 !important;
+    color: #fff;
+    border-color: #d82b24 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

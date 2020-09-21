@@ -1,0 +1,94 @@
+.wContent {
+	width: 100%;
+	height: 100%;
+	background: #f4f4f4;
+}
+
+.wContentLeft {
+	width: 200px;
+	min-height: 1030px;
+	background: #7c7c7c;
+	float: left;
+}
+
+.wContentRight {
+	min-height: 1030px;
+	height: 100%;
+	padding: 20px;
+	margin-left: 200px;
+	box-sizing: border-box;
+}
+
+.wTitle {
+	width: 100%;
+	height: 40px;
+	background: #ffffff;
+	line-height: 40px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+
+.layui-breadcrumb a {
+	color: #333333 !important;
+}
+
+.wMain {
+	width: 100%;
+	height: 100%;
+	background: #ffffff;
+	margin-top: 20px;
+	padding: 0 10px 40px 10px;
+	box-sizing: border-box;
+}
+
+.wHeader {
+	width: 100%;
+	height: 54px;
+	padding-left: 20px;
+	/* background: #ffdd53; */
+	line-height: 54px;
+	box-sizing: border-box;
+}
+.winput{
+	width: 14.8%;
+	/* width: 250px; */
+	height: 34px;
+	border: 1px solid #e5e5e5;
+	padding: 5px 5px;
+	box-sizing: border-box;
+	 vertical-align: top;
+	 margin-top: 10px;
+}
+.mr{
+	margin-right: 20px;
+}
+.winputTime{
+	width: 7%;
+	/* width: 120px; */
+}
+.winputZt{
+	width: 14.8%;
+	/* width: 250px; */
+}
+.wHeader a{
+	display: inline-block;
+	width: 84px;
+	height: 34px;
+	background: #0d67c3;
+	color: #ffffff;
+	border-radius: 6px;	
+	line-height: 34px;
+	margin-top: 10px;
+	text-align: center;
+	margin-left: 20px;
+}
+.wline{
+	color: #999999;
+}
+.winput.cor{
+	color: #999999;
+}
+.winput option{
+	color: #000000;
+}
+
